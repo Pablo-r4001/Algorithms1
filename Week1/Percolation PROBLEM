@@ -1,0 +1,25 @@
+Percolation PROBLEM
+
+N by N grid - sites
+
+Sites
+	Open
+	Blocked
+
+Full site
+	connected to an open site on top row
+		CHAIN NEIGHBORING (left, right, up, down)
+	the system percolates if ther is a full site in the bottom row.
+		Percolates if there is a full site in the bottom row
+
+PROBLEM
+ 
+	PRobability of percolation
+	researchers are interested in the following question:
+		SITES are set independently to be OPEN with PROB P
+		Blocked with PROB 1-P
+		PRobability system percolates?
+		when P = 0 system doess not percolate
+		Wen P = 1 System percolates
+
+		Try to get percolation treshold p*
